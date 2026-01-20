@@ -1,6 +1,6 @@
 <?php
 // Parametrii de conexiune conform portului nou
-$host = "127.0.0.1:3307"; 
+$host = "localhost"; 
 $user = "root";
 $pass = ""; // În XAMPP parola este goală implicit
 $db_name = "autoaction";
