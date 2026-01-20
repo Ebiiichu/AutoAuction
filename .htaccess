@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Nu redirectiona daca fisierul sau folderul exista deja pe disc (ex: poze)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Trimite orice altceva catre index.php in variabila 'url'
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
