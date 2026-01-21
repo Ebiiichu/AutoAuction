@@ -1,3 +1,4 @@
+XAMPP
 sql: localhost/phpmyadmin
 ex test user normal not allowed: localhost/AutoAuction/delete_car?id=1
 
